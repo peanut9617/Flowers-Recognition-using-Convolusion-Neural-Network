@@ -27,7 +27,7 @@ The model has three convolutional layers. Categorical_crossentropy is used for l
   9.	Make Confusion matrix
   
 ### **Confusion Matrix**
-The numbers in the confusion_matrix.png represent：
+The numbers in the Output_plot.png/Confusion Matrix represent：
 
   * 0 = Daisy  
   * 1 = Dandelion  
