@@ -1,4 +1,4 @@
-# Flowers-Recognition-using-Convolusion-Neural-Network
+# Flowers Recognition using Convolusion Neural Network
 This project uses the Convolusion Neural Network(CNN) model to predict the image given by flower recognition dataset on kaggle.
 
 
