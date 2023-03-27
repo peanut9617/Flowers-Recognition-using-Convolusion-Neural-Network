@@ -29,11 +29,11 @@ The model has three convolutional layers. Categorical_crossentropy is used for l
 ### **Confusion Matrix**
 The numbers in the Output_plot.png/Confusion Matrix represent：
 
-  * 0 = Daisy  
-  * 1 = Dandelion  
-  * 2 = Rose  
-  * 3 = Sunflower  
-  * 4 = Tulip  
+>0 = Daisy  
+>1 = Dandelion  
+>2 = Rose  
+>3 = Sunflower  
+>4 = Tulip  
   
 
 **! Please note that you will need to change the file been used in the code to wherever you have stored the dataset.**
