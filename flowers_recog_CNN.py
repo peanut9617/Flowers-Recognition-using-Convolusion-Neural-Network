@@ -113,11 +113,13 @@ predicted=[]
 for i in range(2):
     for j in range(5):
         k = int(np.random.random_sample() * len(X_test))
+        #如果預測正確，標題顏色:綠色
         if(categories[np.argmax(y_test[k])] == categories[np.argmax(model.predict(X_test)[k])]):
             ax[i, j].set_title("TRUE: " + categories[np.argmax(y_test[k])] + "\nPRED: " + categories[
                 np.argmax(model.predict(X_test)[k])], color='green', fontsize=6)
             ax[i,j].set_axis_off()
             ax[i,j].imshow(np.array(X_test)[k].reshape(SIZE, SIZE, 3), cmap='gray')
+        #預測錯誤，標題顏色:紅色
         else:
             ax[i, j].set_title("TRUE: " + categories[np.argmax(y_test[k])] + "\nPRED: " + categories[
                 np.argmax(model.predict(X_test)[k])], color='red', fontsize=6)
