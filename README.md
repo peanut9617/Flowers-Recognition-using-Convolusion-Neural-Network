@@ -15,7 +15,7 @@ There are labeled 4242 images of flowers.
 
 The model has three convolutional layers. Categorical_crossentropy is used for loss and Adam is used as the optimizer. In addition, this project will output a visual prediction on ten random images in the test set and make their confusion matrix.
 
-**HOW：**
+### **HOW**
   1.	Read Folder
   2.	Image is processed as follows: resize, storing the category of each image
   3.	split the dataset into training set and test set
@@ -25,5 +25,15 @@ The model has three convolutional layers. Categorical_crossentropy is used for l
   7.	Batch Training
   8.	Compare the results of ten random predictions in the test set with the correct answers and visualize the output
   9.	Make Confusion matrix
+  
+### **Confusion Matrix**
+The numbers in the confusion_matrix.png represent：
 
-**!** Please note that you will need to change the file been used in the code to wherever you have stored the dataset.
+  * 0 = Daisy  
+  * 1 = Dandelion  
+  * 2 = Rose  
+  * 3 = Sunflower  
+  * 4 = Tulip  
+  
+
+**! Please note that you will need to change the file been used in the code to wherever you have stored the dataset.**
