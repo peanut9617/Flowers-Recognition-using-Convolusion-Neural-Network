@@ -2,7 +2,7 @@
 This project uses the Convolusion Neural Network(CNN) model to predict the image given by flower recognition dataset on kaggle.
 
 
-Kaggle – Flowers Recognition  (url = https://www.kaggle.com/alxmamaev/flowers-recognition)
+Kaggle – [Flowers Recognition](https://www.kaggle.com/alxmamaev/flowers-recognition)
 
 There ara 5 categories of flowers that are predicted and trained on:
 * Daisy
