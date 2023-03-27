@@ -136,7 +136,7 @@ print("Test Accuracy = ",accuracy_score(actual,predicted))
 plt.subplots_adjust(wspace=0.2,hspace=0.75)
 plt.show()
 
-#confusion matrix製作
+#confusion matrix製作，直接使用confusion matrix() function計算
 confusion_mat = confusion_matrix(y_true=actual, y_pred=predicted,labels=categories)
 fig, ax = plt.subplots(figsize=(2.5, 2.5))
 ax.matshow(confusion_mat, cmap=plt.cm.Blues, alpha=0.3)
